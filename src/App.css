@@ -1,32 +1,41 @@
-
+:root {
+  --primary-color: #FFFFFF;
+  --secondary-color: #A0A0A0;
+  --main-background-color: #121212;
+  --card-background-color: #1E1E1E;
+  --first-accent-color: #FFB703;
+  --second-accent-color: #F4A261;
+}
+body {
+  background-color: #121212;
+  /* color: #A0A0A0; */
+}
 header {
   font-size: 50px;
   font-weight: bold;
   display: block;
   margin: 0px auto;
-  color: #023047;
+  color: var(--primary-color);
   text-align: center;
-  background: linear-gradient(135deg, #8ECAE6 0%, #219EBC 100%);
+  /* background: linear-gradient(135deg, #8ECAE6 0%, #219EBC 100%); */
 }
 .header-child {
   padding: 10px;
 }
 .objective {
-  background-color: #e9ceec;
+  background-color: var(--card-background-color);
   border-radius: 10px;
-  color: #432746;
+  color: var(--secondary-color);
   padding: 15px;
   margin: 15px;
   text-align: justify;
 }
 .section-head {
-  color: #023047;
-  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  color: #FFFFFF;
   font-size: 30px;
   font-weight: bold;
   margin: 0px 15px;
   padding: 15px;
-  background-color: #cdf4cd;
   border-radius: 15px;
 }
 .skills-section {
@@ -36,7 +45,8 @@ header {
   flex-wrap: wrap;
 }
 .skill-set {
-  background-color: #d0e1f0;
+  background-color: #1E1E1E;
+  color: var(--secondary-color);
   margin: 15px;
   padding: 15px;
   border-radius: 10px;
@@ -48,7 +58,6 @@ header {
 .skill-set-head {
   font-weight: bold;
   font-size: larger;
-  background-color: #219EBC;
   padding: 14px 14px;
   border-radius: 25px;
   text-align: center;
@@ -57,7 +66,8 @@ header {
   text-align: justify;
 }
 .projects {
-  background-color: #d0e1f0;
+  background-color: #1E1E1E;
+  color: var(--secondary-color);
   margin: 15px;
   padding: 15px;
   border-radius: 10px;
@@ -67,7 +77,6 @@ header {
   margin: 10px auto;
   font-weight: bold;
   font-size: larger;
-  background-color: #219EBC;
   padding: 14px 14px;
   border-radius: 25px;
   text-align: center;
@@ -78,7 +87,7 @@ header {
   margin: 10px 10px;
   padding: 10px;
   border-radius: 10px;
-  background-color: #023047;
+  background-color: var(--first-accent-color);
   color: white;
   text-decoration: none;
 }
