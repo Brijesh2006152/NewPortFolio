@@ -18,7 +18,7 @@ function App() {
     "I developed a simple GUI calculator using only the tkinter library in Python, without applying object‑oriented programming. The project focuses on building a clean, interactive interface where users can perform basic arithmetic operations like addition, subtraction, multiplication, and division by clicking buttons. This project helped me strengthen my understanding of GUI programming while practicing clear layout and user‑friendly behavior."
   ]
   let project_path = [
-    "https://github.com/Brijesh2006152/projects/tree/main/website_clones",
+    "https://website-clone-zeta-neon.vercel.app/",
     "https://github.com/Brijesh2006152/projects/tree/main/python"
   ]
   return (
