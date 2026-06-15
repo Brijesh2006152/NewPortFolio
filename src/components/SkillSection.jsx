@@ -12,9 +12,6 @@ const SkillSection = (props) => {
             ))
           }
         </ul>
-        {/*
-        <div className="skill-set-body"> {props.body}</div>
-        */}
     </section>
   )
 }
