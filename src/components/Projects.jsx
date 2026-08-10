@@ -1,12 +1,18 @@
 import React from 'react'
 
-const Projects = (props) => {
+const Projects = ({ projectData }) => {
   return (
-    <div className='projects'>
-      <div className='project-name'>{props.project_name}</div>
-      <div className="description">{props.body}</div>
-      <a className='live-view' href={props.path}>View</a>
-    </div>
+    <>
+      {projectData.map((project) => (
+        <div className="projects" key={project.id}>
+          <div className="project-name">{project.project}</div>
+          <div className="description">{project.description}</div>
+          <a className="live-view" href={project.path}>
+            View
+          </a>
+        </div>
+      ))}
+    </>
   )
 }
 
